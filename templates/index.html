@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dashboard da Merceária</title>
+    </head>
+    <body style="font-family: Arial; text-align: center; background-color: #f4f4f4; padding: 50px;"></body>></body>
+    <div style="border: 10px solid {{cor}}; padding: 20px;">
+        <h1 style="color: {{cor}};">O desempenho foi: {{status}}</h1>
+        <p>Sua média hoje é R$ {{ valor_html }}</p>
+    </div>
+    <footer><h1 style="color: red; text-align: center;">Vendas em 1 semana</h1>
+    <h1 style="color: blue;text-align: center;">Média de vendas em 1 semana é {{media_arredondada}}</h1>
+    <img src="/static/graficodebarras.png" style="border-radius: 15px; box-shadow:0 4px 8px rgba(0,0,0,0,1); border: 1px solid #ddd;"></footer>
+</html>
